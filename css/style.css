@@ -7,3 +7,119 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
+header{
+    background-color: #F0C53E;
+    height: 90vh;
+    width: 100%;
+}
+.all-header{
+    width: 1152px;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.contact-btn{
+    background-color: #B25A59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+}
+.contact-btn p{
+    margin-left: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text{
+    width: 50%;
+}
+.hero-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-img img{
+    width: 70%;
+}
+.hero-title{
+    color: #7F2736;
+    margin-bottom: 46px;
+}
+.hero-secend-title{
+    color: #2C2D32;
+}
+.hero-third-title{
+    color: #464646;
+
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+}
+.watch{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.watch img{
+    width: 40%;
+}
+.btn{
+    background-color: #B25A59;
+    border: 3px solid transparent;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+}
+.container{
+    width: 1152px;
+    margin: auto;
+}
+.promotional-tour{
+    margin-top: 60px;
+}
+.tour-title{
+    text-align: center;
+    margin-bottom: 17px;
+    color: #7F2736;
+}
+.tour-second-title{
+    color: #2C2D32;
+}
+.promotional-tour-details{
+    text-align: center;
+}
+.promotional-tour-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.tour-grid-box-img img{
+    width: 100%;
+    
+}
+.tour-grid-box-text{
+    padding: 0 41px;
+    color: #7F2736;
+    font-weight: bold;
+    text-align: center;
+}
